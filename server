@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+read -p "License number:" a
+rm -rf /var/license/lic.txt.*
+cp /var/license/lic.txt /var/license/lic.txt.bak
+echo "$a" > /var/license/lic.txt
