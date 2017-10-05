@@ -10,5 +10,4 @@ chmod +x /var/license/update.sh
 echo "sh /var/license/update.sh" >> /etc/rc.local
 cp $LOC/server /usr/bin/server
 chmod +x /usr/bin/server
-yum install wget -y
-yum install at -y
+yum install wget at -y
