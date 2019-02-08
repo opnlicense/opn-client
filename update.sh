@@ -14,8 +14,8 @@ echo "Licensed server."
 
 elif [ $RST == "renew" ] ; then
 echo "***" > /etc/motd
-echo "Your license will expire soon . Please contact to IPtechnics" >> /etc/motd
-echo "Your license will expire soon . Please contact to IPtechnics"
+echo "Your license will expire soon . Please contact your Administrator" >> /etc/motd
+echo "Your license will expire soon . Please contact your Administrator"
 
 else 
 reboot
